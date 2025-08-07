@@ -161,7 +161,7 @@
     document.body.onclick = () => profMenu.classList.add('hidden');
     profMenu.onclick = e => e.stopPropagation();
     // Show only the given section
-    function showOnly(id){
+    function showOnly(id) {
       ['auth-section','dashboard-section','main-section'].forEach(sec => {
         document.getElementById(sec).classList.add('hidden');
       });
