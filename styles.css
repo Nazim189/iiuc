@@ -31,16 +31,16 @@ body {
 .toggle-btn {
   padding: 0.4em 1.2em;
   border-radius: 1em;
-  border: 1px solid #13c7bb;
+  border: 1px solid #2e13c7;
   background: #fff;
   font-weight: 600;
-  color: #13c7bb;
+  color: #2e13c7;
   transition: background 0.2s, color 0.2s;
   cursor: pointer;
 }
 .toggle-btn.active,
 .toggle-btn:hover {
-  background: #13c7bb;
+  background: #2e13c7;
   color: #fff;
 }
 form {
@@ -57,13 +57,13 @@ input[type="text"], input[type="email"], input[type="password"] {
   transition: border 0.2s;
 }
 input:focus {
-  border: 1.5px solid #13c7bb;
+  border: 1.5px solid #2e13c7;
   outline: none;
 }
 .main-btn {
   margin-top: 0.5em;
   padding: 0.8em;
-  background: #13c7bb;
+  background: #2e13c7;
   color: #fff;
   border: none;
   border-radius: 0.4em;
@@ -101,7 +101,7 @@ input:focus {
   height: 85px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #13c7bb;
+  border: 3px solid #2e13c7;
   box-shadow: 0 2px 8px #13c7bb33;
   margin-bottom: 1em;
 }
@@ -121,7 +121,7 @@ input:focus {
   box-shadow: 0 2px 12px #0001;
 }
 .logo { 
-  color: #13c7bb;
+  color: #2e13c7;
   font-weight: bold;
   font-size: 1.5em;
   font-family: 'Segoe UI', sans-serif;
@@ -134,7 +134,7 @@ input:focus {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  border: 2px solid #13c7bb;
+  border: 2px solid #2e13c7;
   cursor: pointer;
   transition: box-shadow .18s;
 }
@@ -159,7 +159,7 @@ input:focus {
   height: 64px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #13c7bb;
+  border: 2px solid #2e13c7;
   margin-bottom: .5em;
 }
 .profile-name {
@@ -207,7 +207,7 @@ input:focus {
   font-size: 1.1em;
   font-weight: 600;
   padding: 1em 1em 1.25em 1em;
-  color: #13c7bb;
+  color: #2e13c7;
 }
 @media (max-width: 600px){
   .auth-box, .dash-profile { width: 95vw; }
